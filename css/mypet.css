@@ -1,0 +1,58 @@
+body{
+    background-color: #7087d1;
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: #7891e0;
+}
+ nav{
+        border: 3px solid #1e42c3;
+        display: flex;
+    }
+    
+/* End Header   */
+
+/*Start Main -content  */
+
+.main-content {
+    margin: auto;
+    width: 1000px;
+
+}
+.box{
+    background-color: #ffffff;
+    padding: 30px;
+    margin: 30px     0px;
+}
+
+.button {
+
+}
+.image{
+    width: 100%;
+}
+
+/* End Main-content   */
+
+
+   footer{
+    background-color: #2c87b8;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+   }   
+    
+    .logo{
+      
+      display: flex;
+      width: 400spx;
+      align-items: center;
+    }
+    
+    
+    .h1-title{
+       margin-left:10px ;
+       color: beige;
+       text-transform: uppercase;
+    }
