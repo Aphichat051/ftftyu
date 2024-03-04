@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;600;900&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header {
+    background-color: rgb(78, 191, 153);
+}
+
+
+nav {
+    display: flex;
+    width: 85%;
+    margin: auto;
+    justify-content: space-between;
+    color: aliceblue;
+     /* background-color: aqua; */
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+
+
+
+.logo {
+    display: flex;
+    align-items: center;
+    
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: aliceblue;
+}
+/*--------------rps main--------------  */
+@media  screen and (max-width:400px){
+   nav{
+
+   }
+
+}
+
+
+nav ul{
+
+
+
+}
+
+
+nav ul li {
+    margin-left: 30px;
+}
+
+/*-------------------------------mypet-content------------------------------*/ 
+
+
+/*----------------------hero-----------------*/
+.hero{
+    background-image: ur1()
+
+
+
+    width: 100px;
+    height: 400px;
+  
+
+}
+.text-hero{
+    color: #ffffff;
+    text-align: center;
+
+
+
+}
+
+
+
+
+
+.mypet-content {
+    display: grid;
+   /* grid-template-columns: 1fr 1fr 1fr; */
+    grid-template-columns: repeat(3,1fr);
+                                        
+
+}
+
+.box {
+     /*background-color: red;*/
+      margin: 30px 10px;
+      border-radius: 10px;
+     
+}
+
+
+.image {
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.text-content{
+    padding: 10px;
+}
