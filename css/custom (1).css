@@ -19,5 +19,15 @@ a{
 input{
     margin-top: 10px;
 }
+.mybg{
+    
+    background-color: rgb(150, 162, 153);
+}
 
+.my-circle {
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+    margin: auto;
 
+}
